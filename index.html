@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Koas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Selamat Datang di Aplikasi Koas!</h1>
+    <p>Ini adalah website untuk membantu Anda selama koas.</p>
+
+    <h2>Manajemen Jadwal</h2>
+    <input type="text" id="taskInput" placeholder="Masukkan tugas">
+    <button onclick="addTask()">Tambah Tugas</button>
+    <ul id="taskList"></ul>
+
+    <h2>Catatan Klinis</h2>
+    <textarea id="clinicalNote" rows="5" cols="50" placeholder="Masukkan catatan klinis"></textarea>
+    <button onclick="saveNote()">Simpan Catatan</button>
+    <p id="savedNote"></p>
+</body>
+</html>
